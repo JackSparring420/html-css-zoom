@@ -38,9 +38,8 @@ header{
 }
 
 main{
-    /* margin: 30px 5px; */
     height: 89vh;
-    padding: 20px 5px;
+    padding: 20px 5px 10vh 5px;
 }
 
 /* parte centrale */
@@ -93,6 +92,7 @@ footer {
     height: 8vh;
     background-color: rgba(128,128,128,0.4);
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-size: 20px;
     text-align: center;
@@ -109,16 +109,16 @@ footer {
     width: 200px;
 }
  #centro {
-     width: 500px;
+     width: 700px;
  }
 
-.fa-microphone, .fa-video, .fa-user-plus, .fa-user-friends, .fa-chart-bar {
-    font-size: 40px;
+.fa-microphone, .fa-video, .fa-user-plus, .fa-user-friends, .fa-chart-bar, .fa-comment-dots, .fa-record-vinyl, .fa-windows, .fa-ellipsis-h {
+    font-size: 35px;
 }
 
 .fa-share-square {
     color: rgb(50, 191, 50);
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .con_numerino{
@@ -131,5 +131,9 @@ footer {
     right: 5px;
 }
 
-
+#destra {
+    color: red;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2.7vh;
+}
 
