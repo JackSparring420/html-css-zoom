@@ -21,8 +21,12 @@ body {
     margin: 10px 10px 10px 0;
 }
 
-.freccia {
+.fa-caret-left, .fa-caret-right {
     font-size: 50px;
+}
+
+.hover:hover{
+    color: #39bbfc;
 }
 
 .conteiner {
@@ -136,4 +140,3 @@ footer {
     background-color: rgba(255, 255, 255, 0.4);
     padding: 2.7vh;
 }
-
