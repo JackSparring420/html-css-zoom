@@ -38,12 +38,13 @@ body {
 }
 
 header{
-    height: 3vh;
+    height: 50px;
 }
 
 main{
-    height: 89vh;
-    padding: 20px 5px 10vh 5px;
+    height: calc(100vh - 130px);
+    display: inline-block;
+    overflow: hidden;
 }
 
 /* parte centrale */
@@ -89,11 +90,11 @@ main{
 }
 
 .fa-microphone-slash {
-color: red;
+    color: red;
 }
 
 footer {
-    height: 8vh;
+    height: 80px;
     background-color: rgba(128,128,128,0.4);
     display: flex;
     align-items: center;
@@ -112,8 +113,8 @@ footer {
 #sinistra {
     width: 200px;
 }
- #centro {
-     width: 700px;
+ #centro>div{
+     margin: 0 15px;
  }
 
 .fa-microphone, .fa-video, .fa-user-plus, .fa-user-friends, .fa-chart-bar, .fa-comment-dots, .fa-record-vinyl, .fa-windows, .fa-ellipsis-h {
@@ -138,5 +139,5 @@ footer {
 #destra {
     color: red;
     background-color: rgba(255, 255, 255, 0.4);
-    padding: 2.7vh;
+    padding: 25px;
 }
